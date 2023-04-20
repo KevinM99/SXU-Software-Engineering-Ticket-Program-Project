@@ -1,0 +1,94 @@
+Page1	Homepage Instructions (Ticket/Movie Screen)
+-------------------------------------------------------
+	THIS IS A JAVA NETBEANS PROJECT!
+
+1. Press the plus (+) or minus (-) symbols to increase or decrease the the ticket count for the adult/child sections.
+	-The maximum amount of tickets for each is 9 tickets, and you can't go below 0.
+	-The total amount of ticket for each section is represented next to the symbol that was pressed.
+	-The overall total of tickets is shown near the top of the section.
+
+2. Press the picture of the movies to select the movie you want to see.
+	-Each image is a button.
+	-The buttons change the label above the movie section to show what movie you currently have selected.
+	-There is currently only 6 movies.
+
+3. After selecting a movie and your ticket amount, press the "Select a Time Slot" button to move on to the Time Slot Screen.
+	-You MUST choose a movie and a ticket amount greater than 0 to move on to the seating chart.
+	-If there is 1 child ticket, then there must be at least 1 adult ticket.
+	-You will be given an error prompt if either the movie is unselected or the ticket number is 0.
+	-After these requirements are completed, you will move on to the Time Slot menu.
+
+
+Page2	Time Slot Screen Instructions
+-------------------------------------------------------
+
+The image you select from the previous menu will appear here on the left.
+
+1. You will be presented with 6 time slots.
+	-Each time slot is a button.
+	-You can only select one at a time.
+	-If you select a time slot while another time slot is already selected, then the previous time slot will unselect it self.
+
+2. After a time slot is selected, you can press the "Confirm Selection" to move on to the seating chart.
+	-If there is no time slot selected, you will get an error and you will be prompted to choose a time slot.
+
+
+Page3	Seating Chart Screen Instructions
+-------------------------------------------------------
+
+1. You will be presented with a seating chart with 24 seats (6x4).
+	-Each chair image is a button. Clicking one will select the seat, while clicking it again will unselect the seat.
+	-Each seat that is colored black are unselected, while seats that is grey are selected
+
+2. There will be a "seats selected" label on the right counting how many seat you have selected.
+	-Seats selected MUST equal your total amount of tickets.
+	-If seats selected is NOT equal to tickets, then you will get an error when pressing the "Proceed to Payment" button.
+
+3. After selecting your desired seats, press the "Proceed to Payment" to move on to payment information.
+
+
+Page4	Payment/Receipt Screen Instructions
+-------------------------------------------------------
+
+Your selected movie will be displayed in a image on the left.
+
+1. On the right on the screen, there is a block dedicated to your receipt.
+	-It will list your order number, movie selected, time slot, seating, tickets, ticket cost, and total cost of your purchase.
+
+2. The rest of the screen is dedicated towards the standard payment information procedure.
+	-IMPORTANT - TAKE NOTE: This isn't an actually payment procedure, it is all fake. No actual information is being taken or stored. This is purely for practice/experimental.
+	-First textfield is "Name on card", which is the name on your credit card. (you can put anything here)
+	-Second textfield is "Credit Card Number", this is where you input your credit card number, there MUST be 16 digits here. (Once again, anything can go here as long as there is 16 characters/digits).
+	-Third section is experation date entry. Two java spinners representing Month and Year. At default, it is 1/23 and can not go lower than this. (This doesn't need to be touched).
+	-The last textfield is "CCV Code:". This is the three digits on the back of your credit card. (Once again, anything can go here as long as there is three characters/digits)
+	-There is a "?" label next to the CCV code textfield. Hover over this and you will get information on what a CCV code is on your credit card.
+
+3. Since the payment information is experimental, all you need to do is credit card number and CCV code.
+	-Credit card number must have 16 digits or you will get an error prompt. (ex: 1234123412341234)
+	-CCV code must have 3 digits or you will get an error prompt. (ex. 123).
+
+4. After all the information has been inputted, you can press the "Confirm Purchase" button.
+	-You will be prompted to print the receipt.
+	-You can print it, or export it to PDF to save on your computer. (When choosing a printer, use Microsoft Print to PDF)
+
+5. Done, you have successfully purchased your tickets!.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
